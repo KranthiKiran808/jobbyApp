@@ -1,0 +1,63 @@
+p {
+  color: #ffffff;
+}
+
+.jobpost-bg-container {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #202020;
+  margin-top: 15px;
+}
+.jobpost-details-container {
+  display: flex;
+  gap: 20px;
+}
+.jobpost-details-image img {
+  width: 50px;
+}
+.rating-con {
+  display: flex;
+  margin-top: 7px;
+  gap: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.title {
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 18px;
+}
+.rating {
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.location-con,
+.employment-type {
+  display: flex;
+  justify-content: flex-start;
+  gap: 7px;
+  align-items: center;
+}
+.loc-type-con {
+  display: flex;
+  justify-content: flex-start;
+  gap: 15px;
+  align-items: center;
+}
+.loc-type-sala-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0 15px 0;
+}
+.desc {
+  font-weight: 500;
+  margin: 12px 0 12px 0;
+  font-size: 24px;
+}
+.link-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

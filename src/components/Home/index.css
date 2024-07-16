@@ -1,0 +1,57 @@
+* {
+  list-style: none;
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto';
+  box-sizing: border-box;
+  outline: none;
+}
+:root {
+  --main-bg-color: #000000;
+  --main-text-color: #ffffff;
+  --error-msg: #ff0b37;
+  --header-bg-color: #272727;
+  --login-button-bg-color: #4f46e5;
+  --retry-bg-color: #6366f1;
+  --p-text-size: 16px;
+  --h1-text-size: 20px;
+}
+.home-bg-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  height: 100vh;
+  background-size: cover;
+  padding: 150px 0 0 50px;
+}
+.home-bg-container h1 {
+  color: var(--main-text-color);
+  font-size: 45px;
+  margin-bottom: 35px;
+}
+.home-bg-container p {
+  width: 300px;
+  margin-bottom: 35px;
+  color: var(--main-text-color);
+  font-size: var(--p-text-size);
+  font-weight: 300;
+}
+.home-bg-container button {
+  width: 100px;
+  height: 30px;
+  color: var(--main-text-color);
+  background-color: #6366f1;
+  font-weight: 400;
+  border-radius: 5px;
+  border: none;
+}
+@media (max-width: 768px) {
+  .home-bg-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+    text-align: center;
+    background-size: cover;
+    padding: 300px 30px;
+  }
+  .home-bg-container p {
+    width: 100%;
+  }
+}

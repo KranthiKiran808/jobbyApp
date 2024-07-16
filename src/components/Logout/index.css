@@ -1,0 +1,10 @@
+.logout-button {
+  background-color: var(--login-button-bg-color);
+  color: var(--main-text-color);
+  font-weight: 400;
+  font-size: var(--p-text-size);
+  width: 120px;
+  height: 35px;
+  border: none;
+  border-radius: 5px;
+}
