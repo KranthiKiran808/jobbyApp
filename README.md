@@ -1,6 +1,6 @@
 In this project, let's build a **Jobby App** by applying the concepts we have learned till now.
 ### Please use the details to Login
-### username: rahul and 
+### username: rahul
 ### Password: rahul@2021:
 
 ### Refer to videos below:
